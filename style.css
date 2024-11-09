@@ -1,0 +1,106 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(151, 119, 77);
+    color: aliceblue;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo h1{
+    margin: 0;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0;
+
+}
+
+header nav ul li{
+    margin-left: 35px;
+
+}
+
+header nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.main{
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 20px;
+}
+.main h2{
+    font-size: 2.5rem;
+    border:4px solid black ;
+    display: inline ;
+    background-color:rgb(151, 119, 77); ;
+}
+
+.main button{
+    background-color: rgb(151, 119, 77);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.menu{
+    text-align: center;
+    padding: 50ox 20px;
+}
+
+.menu h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.menu .menuitem{
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    text-align: center;
+}
+
+.menu .menuitem img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.menu .menuitem h3{
+    margin: 15px 0 10px;
+}
+
+.menu .menuitem p{
+    margin:  0 0 10px;
+}
+
+.menu .menuitem span{
+    font-size: 1.2rem;
+    color: rgb(151, 119, 77);;
+}
+
+footer{
+    background-color:rgb(156, 102, 31);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
